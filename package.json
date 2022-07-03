@@ -1,15 +1,16 @@
 {
 	"name": "imagen",
 	"version": "0.0.1",
-	"description": "",
-	"main": "index.js",
+	"description": "Generate preview images for your blog",
+	"main": "dist/index.js",
 	"scripts": {
 		"build": "tsc",
-		"build:w": "tsc -w"
+		"build:w": "tsc -w",
+		"prepare": "tsc"
 	},
 	"keywords": [],
-	"author": "",
-	"license": "ISC",
+	"author": "Muthu Kumar <@MKRhere> (https://mkr.pw)",
+	"license": "MIT",
 	"dependencies": {
 		"skia-canvas": "^0.9.30"
 	},
